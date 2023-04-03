@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className='text-rose-500'>
 
-      hii airbnb
+      hii airbnb\\
     </main>
   )
 }
