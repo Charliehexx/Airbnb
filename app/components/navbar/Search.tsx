@@ -2,10 +2,10 @@
 
 
 import { BiSearch } from 'react-icons/bi';
-// import { differenceInDays } from 'date-fns';
+import { differenceInDays } from 'date-fns';
 
-// import useSearchModal from '@/app/hooks/useSearchModal';
-// import useCountries from '@/app/hooks/useCountries';
+import useSearchModal from '@/app/hooks/useSearchModal';
+import useCountries from '@/app/hooks/useCountries';
 
 const Search = () => {
 
@@ -13,7 +13,7 @@ const Search = () => {
         <div
 
             className="
-        border-[1px] 
+        border-[2px] 
         w-full 
         md:w-auto 
         py-2 
@@ -39,21 +39,21 @@ const Search = () => {
             px-6
           "
                 >
-
+anyweek
                 </div>
                 <div
                     className="
-            hidden 
+            hidden
             sm:block 
             text-sm 
-            font-semibold 
+            font-semibold
             px-6 
-            border-x-[1px] 
+            border-x-[2px] 
             flex-1 
             text-center
           "
                 >
-
+  a
                 </div>
                 <div
                     className="
