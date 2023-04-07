@@ -26,7 +26,7 @@ const RegisterModal = () => {
     const loginModal = useLoginModal();
     const [isLoading, setIsLoading] = useState(false);
 
-    const {
+    const {   
         register,
         handleSubmit,
         formState: {
@@ -39,6 +39,7 @@ const RegisterModal = () => {
             password: ''
         },
     });
+    console.log(register)
 
     const onSubmit:SubmitHandler<FieldValues>= (data) => {
         setIsLoading(true);
@@ -60,11 +61,11 @@ const RegisterModal = () => {
     const onToggle = useCallback(() => {
         registerModal.onClose();
         loginModal.onOpen();
-    }, [registerModal, loginModal])
+    }, [registerModal, loginModal]) 
 
     const bodyContent = (
         <div className="flex flex-col gap-4">
-            <Heading
+            <Heading center
                 title="Welcome to Airbnb"
                 subtitle="Create an account!"
             />

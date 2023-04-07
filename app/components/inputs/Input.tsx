@@ -28,6 +28,7 @@ const Input: React.FC<InputProps> = ({
     required,
     errors,
 }) => {
+      
     return (
         <div className="w-full relative">
             {formatPrice && (
