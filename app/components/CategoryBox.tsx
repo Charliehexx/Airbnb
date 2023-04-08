@@ -18,11 +18,11 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
 }) => {
   const router = useRouter();
   const params = useSearchParams();
-
+ console.log(params)
   const handleClick = useCallback(() => {
     let currentQuery = {};
     
-    if (params) {
+    if (params) {  
       currentQuery = qs.parse(params.toString())
     }
 
