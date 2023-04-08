@@ -2,9 +2,9 @@ export { default } from "next-auth/middleware"
 
 export const config = { 
   matcher: [
-    "/trips",
-    "/reservations",
-    "/properties",
-    "/favorites"
+    "/app/trips",
+    "/app/reservations",
+    "/app/properties",
+    "/app/favorites"
   ]
 };
