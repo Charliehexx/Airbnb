@@ -61,7 +61,7 @@ const RentModal = () => {
     }
   });
 
-  const location = watch('location');
+  const location = watch('location'); 
   const category = watch('category');
   const guestCount = watch('guestCount');
   const roomCount = watch('roomCount');
